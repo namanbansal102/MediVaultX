@@ -54,6 +54,8 @@ export default function UserProfile() {
       console.log("My Contract is::::::"+contract);
       
       // Call the contract function
+      console.log("User Address is::::"+userAddress);
+      console.log("Metamask Address is::::"+metamaskAddress);
       const result = await contract.methods.fetchUserProfile(metamaskAddress).call({ from: userAddress })
       console.log('Contract result:', result)
       // Assuming `result` is an array of records

@@ -62,8 +62,8 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-center mb-2">Vidhi</h3>
-              <p className="text-emerald-400 text-center mb-4">Frontend Developer</p>
+              <h3 className="text-2xl font-bold text-center mb-2">....</h3>
+              <p className="text-emerald-400 text-center mb-4">Frontend Developer </p>
               <div className="flex justify-center gap-4 mb-4">
                 <a href="tel:+1234567890" className="text-gray-300 hover:text-emerald-400 transition-colors">
                   <Phone className="w-5 h-5" />

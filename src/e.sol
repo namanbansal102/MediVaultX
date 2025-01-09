@@ -76,7 +76,7 @@ contract PRH {
         return hospitals;
     }
     function addUserData(
-        address u_add,
+        address u_add,  
         string calldata _date,
         string calldata _expiryDate,
         string calldata _recordUrl,
@@ -86,8 +86,7 @@ contract PRH {
     record memory newRecord = record(rId,u_add,h_map[msg.sender], _date, _expiryDate, _recordUrl, _rstatus);
     u_map.push(newRecord);
     rId++;
-    userId++;
-        
+    userId++;     
     }
     
  function fetchUserProfile(address u_add) external view returns (record[] memory) {
