@@ -70,7 +70,7 @@ export default function AddHospital() {
         gasPrice:await web3.eth.getGasPrice()
 
       })
-      console.log("My Final Result Called is:::::"+res);
+      console.log("My Final0 Result Called is:::::"+res);
       
       
       // Call the addHospital function

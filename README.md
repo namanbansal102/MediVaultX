@@ -1,8 +1,8 @@
-# NeoxLifeChain
+# MediVaultX 
 
 ![NeoxLifeChain Banner](https://neox-life-chain.vercel.app/banner.png)
 
-NeoxLifeChain is a cutting-edge electronic health management system built on advanced blockchain networks like Neox Chain and Aurora Blockchain. Our platform revolutionizes how healthcare information is stored, managed, and shared.
+MediVaultX  is a cutting-edge electronic health management system built on advanced blockchain networks like Neox Chain and Aurora Blockchain. Our platform revolutionizes how healthcare information is stored, managed, and shared.
 
 🔗 **Live Demo**: [https://neox-life-chain.vercel.app/](https://neox-life-chain.vercel.app/)
 

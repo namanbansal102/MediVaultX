@@ -21,7 +21,8 @@ const ViewHospital = () => {
     const userAddress=accounts[0];
     console.log("My user Address is:::"+userAddress);
     const notes=await contract.methods.viewhospitals().call()
-    console.log("my Notes are:::",notes);
+    notes.splice(0, 1);
+
     
     sethospitals(notes);
     console.log("My Hospitals are::::::::::",hospitals);

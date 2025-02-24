@@ -1,6 +1,8 @@
-
-import { useEffect, useState } from "react"
+import React, { useEffect }   from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 import { ArrowLeft, ArrowRight } from "lucide-react"
+import { useState } from "react";
 
 export default function NewsSlider() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -8,25 +10,25 @@ export default function NewsSlider() {
   const news = [
     {
       date: "27/07/2024",
-      title: "Neo X: A New Brand for a Brand New Era",
+      title: "Medi X: A New Brand for a Brand New Era",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
       date: "25/07/2024",
-      title: "Neo launches $20 million Elevate funding program for Neo X",
+      title: "Medi launches $20 million Elevate funding program for medi X",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
       date: "25/07/2024",
-      title: "Neo X MainNet Launches",
+      title: "Medi X MainNet Launches",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
       date: "18/07/2024",
-      title: "Neo Launches the Neo X Gamma TestNet",
+      title: "Medi Launches the medi X Gamma TestNet",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
@@ -47,13 +49,19 @@ export default function NewsSlider() {
 
     return () => clearInterval(timer)
   }, [])
+    useEffect(() => {
+      Aos.init({
+          duration: 1000,
+          once: true,
+      })
+  }, [])
 
   return (
-    <div className="max-w-7xl mx-auto px-4 ">
+    <div  data-aos="flip-right" className="max-w-7xl mx-auto mt-[5vw] px-4 ">
       <div className="space-y-4 mb-12">
         <h1 className="text-5xl font-bold">Latest news.</h1>
         <p className="text-xl text-gray-600">
-          Let's catch you up on what is happening in the Neo X ecosystem.
+          Let's catch you up on what is happening in the medi X ecosystem.
         </p>
       </div>
 

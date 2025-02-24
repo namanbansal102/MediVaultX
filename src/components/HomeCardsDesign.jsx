@@ -1,8 +1,17 @@
+import React, { useEffect }  from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 "use client"
 
 export default function HomeCardsDesign() {
+    useEffect(() => {
+      Aos.init({
+          duration: 1000,
+          once: true,
+      })
+  }, [])
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16 bg-white">
+    <div   data-aos="slide-right" className="max-w-7xl mx-auto px-4 py-16 bg-white">
       <div className="space-y-4 mb-12">
         <h1 className="text-5xl font-bold">Resources.</h1>
         <p className="text-xl text-gray-600">
@@ -10,7 +19,7 @@ export default function HomeCardsDesign() {
         </p>
         <div className="flex gap-4 pt-4">
           <button className="px-6 py-2 rounded-full border-2 border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-white transition-colors">
-            Add Neo X Mainnet
+            Add MediVaultX  Mainnet
           </button>
           <button className="px-6 py-2 rounded-full bg-emerald-400 text-white hover:bg-emerald-500 transition-colors">
             Go to Docs
