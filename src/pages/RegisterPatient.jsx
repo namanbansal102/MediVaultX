@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Web3 from 'web3';
 import { PinataSDK } from "pinata";
-const contractAdd = "0xdfa986440dfa2357bA1a63eb8F088f2C1b72a766";
+const contractAdd = "0xf7f46df2961c4BD020BEbce86f49ffdEE4aC66aD";
 import ABI from "./ABI.json";
 import axios from 'axios';
 const pinata = new PinataSDK({
@@ -135,7 +135,6 @@ export default function PatientRegistration() {
 
   return (
     <div className="container mx-auto py-10 px-4">
-      <button onClick={handleIPFSUpload}>Click Me</button>
       <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden transition-all duration-300 hover:shadow-3xl">
         <div className="p-6">
           <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">

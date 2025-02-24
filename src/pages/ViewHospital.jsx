@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import HospitalCard from '../components/HospitalCard'
 import Web3 from 'web3';
-const contractAdd="0xdfa986440dfa2357bA1a63eb8F088f2C1b72a766";
+const contractAdd="0xf7f46df2961c4BD020BEbce86f49ffdEE4aC66aD";
 import ABI from "./ABI.json";
 const web3=new Web3(window.ethereum )
 
@@ -21,8 +21,6 @@ const ViewHospital = () => {
     const userAddress=accounts[0];
     console.log("My user Address is:::"+userAddress);
     const notes=await contract.methods.viewhospitals().call()
-
-    notes.splice(0, 1);
     console.log("my Notes are:::",notes);
     sethospitals(notes);
     console.log("My Hospitals are::::::::::",hospitals);

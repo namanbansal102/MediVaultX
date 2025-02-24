@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { PinataSDK } from "pinata";
 import Web3 from 'web3';
-const contractAdd="0xdfa986440dfa2357bA1a63eb8F088f2C1b72a766";
+const contractAdd="0xf7f46df2961c4BD020BEbce86f49ffdEE4aC66aD";
 import ABI from "./ABI.json";
 const web3=new Web3(window.ethereum )
 const contract=new web3.eth.Contract(ABI,contractAdd)
