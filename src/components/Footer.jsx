@@ -124,7 +124,7 @@ export default function Footer() {
               MediVaultX 
             </div>
             <p className="text-gray-300 max-w-xs">
-              Building the future of blockchain technology with Neo X ecosystem.
+              Building the future of blockchain technology with MediVaultX ecosystem.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -200,7 +200,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-gray-800 pt-8">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
             <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Neo X. All rights reserved.
+              © {new Date().getFullYear()} MediVaultX. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-sm text-gray-400 hover:text-blue-400">

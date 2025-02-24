@@ -21,7 +21,7 @@ export default function AboutPage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <h1 className="text-5xl font-bold mb-6">About NeoXLifeChain</h1>
+          <h1 className="text-5xl font-bold mb-6">About MediVaultX</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             We are a team of passionate developers and healthcare professionals working to revolutionize medical record management through blockchain technology. Our platform emerged from a successful hackathon project and has evolved into a comprehensive healthcare solution.
           </p>
