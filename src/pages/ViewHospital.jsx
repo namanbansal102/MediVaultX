@@ -21,14 +21,9 @@ const ViewHospital = () => {
     const userAddress=accounts[0];
     console.log("My user Address is:::"+userAddress);
     const notes=await contract.methods.viewhospitals().call()
-<<<<<<< HEAD
-    notes.splice(0, 1);
 
-    
-=======
+    notes.splice(0, 1);
     console.log("my Notes are:::",notes);
-    notes.splice(0,1);
->>>>>>> 46a27fadaecdba9a0e2cadef2744fe4e9cc0f4a6
     sethospitals(notes);
     console.log("My Hospitals are::::::::::",hospitals);
 } catch (error) {
