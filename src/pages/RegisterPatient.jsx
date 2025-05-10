@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Web3 from 'web3';
 import { PinataSDK } from "pinata";
-const contractAdd = "0xf7f46df2961c4BD020BEbce86f49ffdEE4aC66aD";
+const contractAdd = "0xC086E8447Ec317F329664C5E142C8432698b5eD3";
 import ABI from "./ABI.json";
 import axios from 'axios';
 const pinata = new PinataSDK({
