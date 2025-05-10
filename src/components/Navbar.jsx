@@ -234,7 +234,7 @@ export default function Component() {
                     ? 'Connecting...'
                     : account
                     ? `${account.slice(0, 6)}...${account.slice(-4)}`
-                    : 'Connect (Creator)'}
+                    : 'Connect (Pharos)'}
                 </button>
               </div>
             </div>

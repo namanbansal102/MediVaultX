@@ -37,7 +37,7 @@ MediVaultX  is a cutting-edge electronic health management system built on advan
 ## 🛠️ Technology Stack
 
 - **Frontend**: Next.js, React
-- **Blockchain**: Creator Chain, Aurora Blockchain
+- **Blockchain**: Pharos Chain, Aurora Blockchain
 - **Styling**: Tailwind CSS
 - **Authentication**: Web3 Wallet Integration
 - **Deployment**: Vercel
