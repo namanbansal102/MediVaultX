@@ -10,25 +10,25 @@ export default function NewsSlider() {
   const news = [
     {
       date: "27/07/2024",
-      title: "Medi X: A New Brand for a Brand New Era",
+      title: "BOT Chain Mainnet: A New Era for Healthcare Data",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
       date: "25/07/2024",
-      title: "Medi launches $20 million Elevate funding program for medi X",
+      title: "MediVaultX brings secure records to BOT Chain",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
       date: "25/07/2024",
-      title: "Medi X MainNet Launches",
+      title: "BOT Chain Mainnet launches",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
       date: "18/07/2024",
-      title: "Medi Launches the medi X Gamma TestNet",
+      title: "MediVaultX prepares its BOT Chain ecosystem",
       link: "#",
       image: "/placeholder.svg?height=400&width=600",
     },
@@ -61,7 +61,7 @@ export default function NewsSlider() {
       <div className="space-y-4 mb-12">
         <h1 className="text-5xl font-bold">Latest news.</h1>
         <p className="text-xl text-gray-600">
-          Let's catch you up on what is happening in the medi X ecosystem.
+            Let's catch you up on what is happening in the BOT Chain ecosystem.
         </p>
       </div>
 

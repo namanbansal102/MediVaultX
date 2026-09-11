@@ -20,7 +20,7 @@ export default function Home() {
 <>
 <div
   style={{
-    backgroundImage: `url("https://x.neo.org/assets/hero-x.png")`,
+    backgroundImage: `url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=2400&q=80")`,
   }}
   data-aos="flip-up"
   className="w-full relative flex flex-col overflow-hidden lg:overflow-visible"
@@ -40,7 +40,7 @@ export default function Home() {
                 <a href="/about">
 
                 <span className="font-semibold whitespace-nowrap text-sm lg:text-base">
-                  $20m in funding available now
+                  BOT Chain Mainnet is live now
                 </span>
                 </a>
  
@@ -50,12 +50,12 @@ export default function Home() {
             {/* Hero Text */}
             <p className="font-bold text-5xl lg:text-[90px] flex flex-col">
               <span className="whitespace-nowrap">New Life</span>
-              <span>It's MediVaultX </span>
+              <span>On BOT Chain </span>
             </p>
   
             {/* Description */}
             <p className="font-medium lg:text-lg text-[#404056] max-w-md">
-            MediVaultX  is a Secure Based Electronic Health Management System To Manange Health Records Securely and Access Quickly.</p>
+            MediVaultX is a secure electronic health management system for managing and accessing health records quickly on BOT Chain.</p>
   
             {/* CTA Button */}
             <div className="flex items-center gap-8">

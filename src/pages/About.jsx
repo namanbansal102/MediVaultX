@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion"
 import { Github, Mail, Phone } from 'lucide-react'
-import mridul from "../assets/mridul.jpg"
 
 export default function AboutPage() {
   return (
@@ -48,36 +47,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold text-center mb-12">Meet Our Team</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Team Member 1 */}
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="group"
-          >
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
-              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
-                <img
-                  src={mridul}
-                  alt="Team Member 1"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-2xl font-bold text-center mb-2">Vidhi</h3>
-              <p className="text-emerald-400 text-center mb-4">Frontend Developer</p>
-              <div className="flex justify-center gap-4 mb-4">
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-emerald-400 transition-colors">
-                  <Phone className="w-5 h-5" />
-                </a>
-                <a href="mailto:sarah@neoxlife.com" className="text-gray-300 hover:text-emerald-400 transition-colors">
-                  <Mail className="w-5 h-5" />
-                </a>
-                <a href="https://github.com/sarahchen" className="text-gray-300 hover:text-emerald-400 transition-colors">
-                  <Github className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
-          </motion.div>
+        
 
           {/* Team Member 2 */}
           <motion.div 
@@ -101,7 +71,7 @@ export default function AboutPage() {
                 <a href="tel:+1234567891" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Phone className="w-5 h-5" />
                 </a>
-                <a href="mailto:alex@neoxlife.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="mailto:team@medivaultx.com" className="text-gray-300 hover:text-blue-400 transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
                 <a href="https://github.com/alexkumar" className="text-gray-300 hover:text-blue-400 transition-colors">

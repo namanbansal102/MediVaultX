@@ -1,8 +1,8 @@
 # MediVaultX 
 
-![MediVaultX Banner](https://neox-life-chain.vercel.app/banner.png)
+![MediVaultX Banner](https://scan.botchain.ai/banner.png)
 
-MediVaultX  is a cutting-edge electronic health management system built on advanced blockchain networks like Creator Chain and Aurora Blockchain. Our platform revolutionizes how healthcare information is stored, managed, and shared.
+MediVaultX is a cutting-edge electronic health management system built on BOT Chain Mainnet. Our platform revolutionizes how healthcare information is stored, managed, and shared.
 
 🔗 **Live Demo**: [https://medi-vaultx.vercel.app/](https://medi-vaultx.vercel.app/)
 
@@ -28,7 +28,7 @@ MediVaultX  is a cutting-edge electronic health management system built on advan
 - Encrypted data storage and transmission
 
 ### ⚡ Technical Features
-- Built on MediVaultX and Aurora Blockchain
+- Built on MediVaultX and BOT Chain Mainnet
 - High-speed transaction processing
 - Interoperable healthcare data standards
 - Responsive and modern user interface
@@ -37,14 +37,14 @@ MediVaultX  is a cutting-edge electronic health management system built on advan
 ## 🛠️ Technology Stack
 
 - **Frontend**: Next.js, React
-- **Blockchain**: Pharos Chain, Aurora Blockchain
+- **Blockchain**: BOT Chain Mainnet
 - **Styling**: Tailwind CSS
 - **Authentication**: Web3 Wallet Integration
 - **Deployment**: Vercel
 
 ## 🚀 Getting Started
 
-1. Visit [https://medi-vaultx.vercel.app/](https://neox-life-chain.vercel.app/)
+1. Visit [https://medi-vaultx.vercel.app/](https://medi-vaultx.vercel.app/)
 2. Connect your Web3 wallet
 3. Register your hospital or access patient records
 4. Start managing healthcare data securely

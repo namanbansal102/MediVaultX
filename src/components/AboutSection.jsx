@@ -35,7 +35,7 @@ export default function AboutSection() {
 }, [])
   return (
     <section style={{
-      backgroundImage: `url("https://x.neo.org/assets/hero-x.png")`,
+      backgroundImage: `url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=2400&q=80")`,
     }} data-aos="fade-down-right" className="bg-white mt-[10vh] py-24">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16 space-y-4">

@@ -135,7 +135,7 @@ export default function Component() {
                       href="/userProfile"
                       className="block px-4 py-2 text-lg text-neutral-300 hover:bg-neutral-800 hover:text-green-400"
                     >
-                      Neo Hospital
+                      BOT Hospital
                     </a>
                   </div>
                 )}
@@ -234,7 +234,7 @@ export default function Component() {
                     ? 'Connecting...'
                     : account
                     ? `${account.slice(0, 6)}...${account.slice(-4)}`
-                    : 'Connect (Pharos)'}
+                    : 'Connect BOT Chain'}
                 </button>
               </div>
             </div>
